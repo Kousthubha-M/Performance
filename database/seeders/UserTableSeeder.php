@@ -19,9 +19,19 @@ class UserTableSeeder extends Seeder
 
     $users = [
       [
-        'email' => 'user@user.com',
-        'name' => 'User 1',
-        'password' => 'user@123'
+        'email' => 'employee1@example.com',
+        'name' => 'Employee A',
+        'password' => 'employee1@123'
+      ],
+      [
+        'email' => 'employee2@example.com',
+        'name' => 'Employee B',
+        'password' => 'employee2@123'
+      ],
+      [
+        'email' => 'employee3@example.com',
+        'name' => 'Employee C',
+        'password' => 'employee3@123'
       ]
     ];
 
